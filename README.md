@@ -30,7 +30,7 @@
 Query to get who are getting equal salary
 
 ### Input :-
-'''
+'''sql
 +----------+-----------+---------+---------+-----------------------+--------+
 | workerid | firstname | lastname | salary  | joiningdate           | depart |
 |----------|----------|----------|---------|------------------------|--------|
