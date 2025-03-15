@@ -30,7 +30,7 @@
 Query to get who are getting equal salary
 
 ### Input :-
-'''
+'''sql
 | workerid | firstname | lastname | salary  | joiningdate           | depart |
 |----------|----------|----------|---------|------------------------|--------|
 | 001      | Monika   | Arora    | 100000  | 2014-02-20 09:00:00    | HR     |
@@ -40,6 +40,7 @@ Query to get who are getting equal salary
 | 005      | Vivek    | Bhati    | 500000  | 2014-06-11 09:00:00    | Admin  |
 
 ### Expected Output :-
+'''sql
 | workerid | firstname | lastname | salary  | joiningdate           | depart |
 |----------|----------|----------|---------|------------------------|--------|
 | 002      | Niharika | Verma    | 300000  | 2014-06-11 09:00:00    | Admin  |
