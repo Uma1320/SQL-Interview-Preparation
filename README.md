@@ -3,5 +3,5 @@
 ## Table 
 | No | Scenarios |
 |----|-----------|
-| 1  | []|(#scenario-1)
+| 1  | |(#scenario-1)
 | 2  | |
