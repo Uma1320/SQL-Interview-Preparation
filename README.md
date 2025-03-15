@@ -30,6 +30,7 @@
 Query to get who are getting equal salary
 
 ### Input :-
+'''
 | workerid | firstname | lastname | salary  | joiningdate           | depart |
 |----------|----------|----------|---------|------------------------|--------|
 | 001      | Monika   | Arora    | 100000  | 2014-02-20 09:00:00    | HR     |
