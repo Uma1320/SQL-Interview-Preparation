@@ -3,7 +3,7 @@
 ## Table 
 | No | Scenarios |
 |----|-----------|
-| 1  | |(#[scenario-1](https://github.com/Uma1320/SQL-Interview-Preparation/blob/main/Scenario-1.sql))|
+| 1  | (#[scenario-1](https://github.com/Uma1320/SQL-Interview-Preparation/blob/main/Scenario-1.sql))|
 | 2  | |
 
 
