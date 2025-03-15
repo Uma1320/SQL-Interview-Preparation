@@ -26,11 +26,10 @@
 
 
 
-Scenerio-1
-
+## Scenerio-1
 Query to get who are getting equal salary
 
-Input :-
+## Input :-
 +--------+---------+--------+------+-------------------+------+
 |workerid|firstname|lastname|salary|        joiningdate|depart|
 +--------+---------+--------+------+-------------------+------+
@@ -42,7 +41,7 @@ Input :-
 +--------+---------+--------+------+-------------------+------+
 
 
-Expected Output :-
+## Expected Output :-
 +--------+---------+--------+------+-------------------+------+
 |workerid|firstname|lastname|salary|        joiningdate|depart|
 +--------+---------+--------+------+-------------------+------+
