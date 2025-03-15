@@ -48,4 +48,6 @@ Query to get who are getting equal salary
 | 004      | Amitabh  | Singh    | 500000  | 2014-02-20 09:00:00    | Admin  |
 | 005      | Vivek    | Bhati    | 500000  | 2014-06-11 09:00:00    | Admin  |
 ```
+## Solution:- 
+pyspark - 
 
