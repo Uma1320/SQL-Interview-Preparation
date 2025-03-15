@@ -49,5 +49,5 @@ Query to get who are getting equal salary
 | 005      | Vivek    | Bhati    | 500000  | 2014-06-11 09:00:00    | Admin  |
 ```
 ## Solution:- 
-pyspark - 
+pyspark - https://github.com/Uma1320/SQL-Interview-Preparation/blob/main/Scenario-1.sql
 
