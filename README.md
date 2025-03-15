@@ -13,5 +13,5 @@
 | 7   | [Scenario-7](#scenario-7) |
 | 8   | [Scenario-8](#scenario-8) |
 | 9   | [Scenario-9](#scenario-9) |
-| 10  | [Scenario-10](#scenario-10) |
+| 10  | 
 
