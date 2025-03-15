@@ -1,6 +1,6 @@
-Sql Interview Scenarios
+## Sql Interview Scenarios
 
-Table 
+## Table 
 | No | Scenarios |
 | 1  | |
 | 2  | |
