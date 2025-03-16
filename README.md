@@ -78,5 +78,5 @@ Query to get who are getting equal salary
 +---+----+
 ```
 1. Selecting 2 columns
-**## Solution:- **
+## Solution:-
 Spark.Sql - 
