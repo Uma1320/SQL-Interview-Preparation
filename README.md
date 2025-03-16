@@ -44,7 +44,9 @@ Query to get who are getting equal salary
 |  7|12-17-2011| 300.0|  Team Sports|         Field|   cash|
 |  8|02-14-2011| 200.0|   Gymnastics|          NULL|   cash|
 +---+----------+------+-------------+--------------+-------+
+```
 ### Input 2 :-
+```sql
 +---+----------+------+-----------+-------+-------+
 | id|     tdate|amount|   category|product|spendby|
 +---+----------+------+-----------+-------+-------+
@@ -55,6 +57,7 @@ Query to get who are getting equal salary
 +---+----------+------+-----------+-------+-------+
 ```
 ### Input 3 :-
+```sql
 +---+-------+
 | id|product|
 +---+-------+
@@ -62,7 +65,9 @@ Query to get who are getting equal salary
 |  3| mobile|
 |  7| laptop|
 +---+-------+
+```
 ### Input 4 :-
+```sql
 +---+----+
 | id|name|
 +---+----+
@@ -71,6 +76,6 @@ Query to get who are getting equal salary
 |  3| sai|
 |  5|rani|
 +---+----+
-
+```
 ## Solution:- 
 Spark.Sql - 
