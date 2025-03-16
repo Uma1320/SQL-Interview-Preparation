@@ -29,25 +29,48 @@
 ## Scenerio-1
 Query to get who are getting equal salary
 
-### Input :-
+### Input 1 :-
 ```sql
-| workerid | firstname | lastname | salary  | joiningdate           | depart |
-|----------|----------|----------|---------|------------------------|--------|
-| 001      | Monika   | Arora    | 100000  | 2014-02-20 09:00:00    | HR     |
-| 002      | Niharika | Verma    | 300000  | 2014-06-11 09:00:00    | Admin  |
-| 003      | Vishal   | Singhal  | 300000  | 2014-02-20 09:00:00    | HR     |
-| 004      | Amitabh  | Singh    | 500000  | 2014-02-20 09:00:00    | Admin  |
-| 005      | Vivek    | Bhati    | 500000  | 2014-06-11 09:00:00    | Admin  |
++---+----------+------+-------------+--------------+-------+
+| id|     tdate|amount|     category|       product|spendby|
++---+----------+------+-------------+--------------+-------+
+|  0|06-26-2011| 300.4|     Exercise| GymnasticsPro|   cash|
+|  1|05-26-2011| 200.0|Exercise Band| Weightlifting| credit|
+|  2|06-01-2011| 300.4|     Exercise|Gymnastics Pro|   cash|
+|  3|06-05-2011| 100.0|   Gymnastics|         Rings| credit|
+|  4|12-17-2011| 300.0|  Team Sports|         Field|   cash|
+|  5|02-14-2011| 200.0|   Gymnastics|          NULL|   cash|
+|  6|06-05-2011| 100.0|     Exercise|         Rings| credit|
+|  7|12-17-2011| 300.0|  Team Sports|         Field|   cash|
+|  8|02-14-2011| 200.0|   Gymnastics|          NULL|   cash|
++---+----------+------+-------------+--------------+-------+
+### Input 2 :-
++---+----------+------+-----------+-------+-------+
+| id|     tdate|amount|   category|product|spendby|
++---+----------+------+-----------+-------+-------+
+|  4|12-17-2011| 300.0|Team Sports|  Field|   cash|
+|  5|02-14-2011| 200.0| Gymnastics|   NULL|   cash|
+|  6|02-14-2011| 200.0|     Winter|   NULL|   cash|
+|  7|02-14-2011| 200.0|     Winter|   NULL|   cash|
++---+----------+------+-----------+-------+-------+
 ```
-### Expected Output :-
-```sql
-| workerid | firstname | lastname | salary  | joiningdate           | depart |
-|----------|----------|----------|---------|------------------------|--------|
-| 002      | Niharika | Verma    | 300000  | 2014-06-11 09:00:00    | Admin  |
-| 003      | Vishal   | Singhal  | 300000  | 2014-02-20 09:00:00    | HR     |
-| 004      | Amitabh  | Singh    | 500000  | 2014-02-20 09:00:00    | Admin  |
-| 005      | Vivek    | Bhati    | 500000  | 2014-06-11 09:00:00    | Admin  |
-```
-## Solution:- 
-pyspark - https://github.com/Uma1320/SQL-Interview-Preparation/blob/main/Scenario-1.sql
+### Input 3 :-
++---+-------+
+| id|product|
++---+-------+
+|  1|  mouse|
+|  3| mobile|
+|  7| laptop|
++---+-------+
+### Input 4 :-
++---+----+
+| id|name|
++---+----+
+|  1| raj|
+|  2|ravi|
+|  3| sai|
+|  5|rani|
++---+----+
 
+## Solution:- 
+Spark.Sql - 
